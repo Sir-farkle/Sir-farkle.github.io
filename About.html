@@ -4,6 +4,66 @@
 	<title>About</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="main for About.css"> 
+<style>
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: black;
+}
+
+a:active {
+    text-decoration: underline;
+	color: black;
+}
+
+body {
+	margin:0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+	background-color: #f3f3f3
+	position: fixed;
+	top: 0;
+	width: 100;
+}
+
+li {
+	float: left
+}
+
+li a {
+	display: block
+	color: white;
+	text-align: center;
+	padding: 8px 12px;
+	text decoration: none;	
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+li a:hover:not(.active) {
+	background-color: #F7DC6F
+}
+.active {
+	background-color: #95A5A6
+}
+</style>
 </head> 
 <body>
 
@@ -13,16 +73,19 @@ musicians don't have to root through their stuff to find music...</p>
 </h1>
 	
 	<h2>
-		<p>So...Because it's so hard for me to have to look around, I personally wanted a place for me to
+		<p>Because it's so hard for me to have to look around, I personally wanted a place for me to
 go and be able to find music that I needed to play, without the hassle of searching for it.</p>
 	</h2> 
 	<img src="shrug.gif"/>
 	<div class="nav">
+	<nav class="fixed-nav-bar">
 	<ul>
 		<li><a href="index.html">Home</li>
+		<li><a class="active" href="About.html">About</li>
 		<li><a href="Google Drive Explaination.html">Google Drive Explaination</li>
-                <li><a href="OneDrive Explaination.html">OneDrive Explaination</li>
-	<ul>
+		<li><a href="OneDrive Explaination.html">OneDrive Explaination</li>
+		<li style="float:right">Contact</li>
+	</ul>
 	</div>	
 	<p id = "footer">&copy; Gereja Kristen Indonesia </p>
 </body>

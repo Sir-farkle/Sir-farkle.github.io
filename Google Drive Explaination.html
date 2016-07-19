@@ -4,6 +4,66 @@
 	<title>About</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="main for About.css"> 
+<style>
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: black;
+}
+
+a:active {
+    text-decoration: underline;
+	color: black;
+}
+
+body {
+	margin:0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+	background-color: #f3f3f3
+	position: fixed;
+	bottom: 0;
+	width: 100;
+}
+
+li {
+	float: left
+}
+
+li a {
+	display: block
+	color: white;
+	text-align: center;
+	padding: 8px 12px;
+	text decoration: none;	
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+li a:hover:not(.active) {
+	background-color: #F7DC6F
+}
+.active {
+	background-color: #95A5A6
+}
+</style>
 </head> 
 <body>
 
@@ -18,11 +78,14 @@ that I used to find songsthat I would only get to play maybe once or twice in th
 months. Long story short, I compiled every song I've ever had to look up and saved them for use later Like an inventory of sorts.</p>
 	</h2> 
 	<div class="nav">
+	<nav class="fixed-nav-bar">
 	<ul>
 		<li><a href="index.html">Home</li>
 		<li><a href="About.html">About</li>
+		<li><a class="active" href="Google Drive Explaination.html">Google Drive Explaination</li>
 		<li><a href="OneDrive Explaination.html">OneDrive Explaination</li>
-	<ul>
+		<li style="float:right">Contact</li>
+	</ul>
 	</div>	
 	<p id = "footer">&copy; Gereja Kristen Indonesia </p>
 </body>

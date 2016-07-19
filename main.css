@@ -1,46 +1,90 @@
 body {
-	font-family: Copperplate Gothic Light, serif;
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
 	
-}
+	font-family: Copperplate Gothic Light, serif;
+	
+	height: 100%;
+	
+	margin: 0;
+	
+	text-align: center;
+	
+	width: 100%;
+			
+
+}	
+
+
 
 h1 {
+	
 	font-size: 65px;
+	
 	color: #000000;
+
 }
 
+
+
 h2 {
-	color: #000000;
+	
+	font-color: #000000;
 	font-size: 56px; 
+
 }
+
+
+h3 {
+	
+	font-color: #000000;
+	font-size: 56px; 
+
+}
+
+
 
 
 html {
-	background-image: url('Capture2.PNG');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+background: url('file:///C:/Users/andre/Documents/Website/Images/Capture2.PNG') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
+
+
 
 
 p {
+	
 	color: #DAA520;
+	
 	font-size: 2em;
 }
 
-.hero a {
-	color: #00FFAA;
-	font-size: 24px;
+
+}
+
+
+#footer {
+	
+	color: DarkSlateGray;
+	
+	font-size: 16px;
+
+}
+
+nav a {
+	height: 60px;
+	line-height: 60px;
+	color: #204156;
 	text-decoration: none;
 }
 
-#footer {
-	color: DarkSlateGray;
-	font-size: 16px;
-}
-
-
+.fixed-nav-bar {
+	position: fixed; 
+	bottom: 0;
+	left: 0;
+	z-index:9999;
+	width: 100%;
+	height: 60px;
+	background-color: #DAA520;

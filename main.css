@@ -18,14 +18,12 @@ h2 {
 }
 
 
-.hero {
+html {
 	background-image: url('Capture2.PNG');
-	background-position: center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	padding: 200px 0;
-	margin: 300px;
-	text-shadow: 0 2px #000000;
-	font-family: 'Copperplate Gothic Light', 'Helvetica';
 }
 
 
